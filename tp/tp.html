@@ -2,33 +2,282 @@
 <html>
   <head>
     <title>InfoVis - TP - Santiago Terenziani</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"rel="nofollow"
+          integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
   </head>
   <body>
-	<div class='tableauPlaceholder' id='viz1616900141658' style='position: relative'>
-		<noscript>
-			<a href='#'><img alt='A Study on my Gaming Habits ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP-57240&#47;Story1&#47;1_rss.png' style='border: none' /></a>
-		</noscript>
-		<object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-			<param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TP-57240&#47;Story1' />
-			<param name='tabs' value='no' />
-			<param name='toolbar' value='yes' />
-			<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP-57240&#47;Story1&#47;1.png' />
-			<param name='animate_transition' value='yes' />
-			<param name='display_static_image' value='yes' />
-			<param name='display_spinner' value='yes' />
-			<param name='display_overlay' value='yes' />
-			<param name='display_count' value='yes' />
-			<param name='language' value='en' />
-			<param name='filter' value='publish=yes' />
-		</object>
-	</div>
-	<script type='text/javascript'>
-		var divElement = document.getElementById('viz1616900141658');
-		var vizElement = divElement.getElementsByTagName('object')[0];
-		vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
-		var scriptElement = document.createElement('script');
-		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-		vizElement.parentNode.insertBefore(scriptElement, vizElement);
-	</script>
+    <div class="p-5 text-center">
+      <h1 style="font-size: 8rem; font-family: futara">A Study on my Gaming Habits</h1>
+      <p>I've kept track of what games I've played starting October 2012 to analyze how my consumption of videogames has evolved over the years.</p>
+      <p>Some of the stats taken into account include hours spent on each game, dates I picked up and dropped each game and whether
+        I finished each game or not (or if it doesn't apply, as is usually the case for multiplayer-focused games or sandbox simulators)</p>
+      <p>Some of the consoles referenced are:</p>
+      <div class="m-5 row">
+        <div class="col">
+          <img alt='SNES' src='fotos/SNES.png' style="height:7rem;"/>
+          <h6>Super Nintendo (SNES)</h6>
+        </div>
+        <div class="col">
+          <img alt='DS' src='fotos/DS.png' style="height:7rem;"/>
+          <h6>Nintendo DS</h6>
+        </div>
+        <div class="col">
+          <img alt='Wii' src='fotos/Wii.png' style="height:7rem;"/>
+          <h6>Wii</h6>
+        </div>
+        <div class="col">
+          <img alt='PC' src='fotos/PC.png' style="height:7rem;"/>
+          <h6>PC</h6>
+        </div>
+        <div class="col">
+          <img alt='3DS' src='fotos/3DS.png' style="height:7rem;"/>
+          <h6>Nintendo 3DS</h6>
+        </div>
+        <div class="col">
+          <img alt='Wii U' src='fotos/Wii U.png' style="height:7rem;"/>
+          <h6>Wii U</h6>
+        </div>
+        <div class="col">
+          <img alt='Switch' src='fotos/Switch.png' style="height:7rem;"/>
+          <h6>Nintendo Switch (NS)</h6>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="p-5">
+      <h3 class="text-center bg-dark text-white p-4">What types of games do I like?</h3>
+      <!-- Genres -->
+      <div class='tableauPlaceholder' id='viz1618237138079' style='position: relative'>
+        <noscript>
+          <a href='#'><img alt='What do I play? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP-FavoriteGenres&#47;WhatdoIplay&#47;1_rss.png' style='border: none' /></a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+          <param name='name' value='TP-FavoriteGenres&#47;WhatdoIplay' /><param name='tabs' value='no' />
+          <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP-FavoriteGenres&#47;WhatdoIplay&#47;1.png' />
+          <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' />
+          <param name='language' value='en' /><param name='filter' value='publish=yes' />
+        </object>
+      </div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1618237138079');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width='100%';vizElement.style.height=55+'rem';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+      <h6 class="mt-5">Obervations:</h6>
+      <ul>
+        <li>I play a lot of Japanese Role-Playing games, which are known for their length, so it should come as no surprise that the genre makes up a fair share of my playtime.</p>
+        <li>I'm not particularly into shooter games, and yet the two games I did get into make up a decent amount of my playtime, although a decent amount of those hours was probably
+            spent waiting for an online match to start or looking for a server to connect to.</p>
+      </ul>
+    </div>
+
+    <div class="p-5">
+      <h3 class="text-center bg-dark text-white p-4">What series do I like?</h3>
+      <!-- Series -->
+      <div class='tableauPlaceholder' id='viz1618232870477' style='position: relative'>
+        <noscript><a href='#'>
+          <img alt='What series do I like? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP-57240&#47;WhatseriesdoIlike&#47;1_rss.png' style='border: none' /></a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' /><param name='name' value='TP-57240&#47;WhatseriesdoIlike' /><param name='tabs' value='no' />
+          <param name='toolbar' value='no' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP-57240&#47;WhatseriesdoIlike&#47;1.png' />
+          <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' />
+        </object>
+      </div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1618232870477');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width='100%';vizElement.style.height=55+'rem';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+      <h6 class="mt-5">Obervations:</h6>
+      <ul>
+        <li>Once again, Team Fortress 2 makes my love for its genre and series seem bigger than it is, taking the spotlight despite that being the only enntry in its series that I played.</p>
+        <li>The Legend of Zelda and Fire Emblem series are more deserving of their bubbles, balancing the many hours logged into them across several games.</p>
+        <li>Despite the limited number of games in the Bravely Default and Xenoblade series, I've logged plenty of hours into them, since they are long RPGs.</p>
+      </ul>
+    </div>
+
+    <div class="p-5">
+      <h3 class="text-center bg-dark text-white p-4">Which genres take me the longest to finish?</h3>
+      <!-- Boxplot -->
+      <div class="flourish-embed flourish-scatter" data-src="visualisation/5827667"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+      <h6 class="">Obervations:</h6>
+      <ul>
+        <li>The RPGs on the shorter side tend to be either short extensions to a longer RPG, or made by western developers.</p>
+        <li>I haven't played enough campaigns of simulator games to make a good estimate of how long they may be, but the ones I've played are very close in length.</p>
+        <li>Action, rhythm and horror games tend to be on the shorter side.</p>
+      </ul>
+    </div>
+
+    <div class="p-5">
+      <h3 class="text-center bg-dark text-white p-4">What were my most played games?</h3>
+      <!-- Race -->
+      <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/5708721"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+    </div>
+
+    <div class="p-5">
+      <h3 class="text-center bg-dark text-white p-4">When did I play games the most?</h3>
+      <!-- Heatmap -->
+      <div class="flourish-embed flourish-heatmap" data-src="visualisation/5832280"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+      <h6 class="">Obervations:</h6>
+      <ul>
+        <li>I stopped playing as much once I started college in 2016</p>
+        <li>From that point onward, I played almost exclusively during summer and winter breaks (January, February, July and December)</p>
+      </ul>
+    </div>
+
+    <div class="p-5">
+      <h3 class="text-center bg-dark text-white p-4">How long do games stay in my backlog?</h3>
+      <p>I only tend to buy physical games when abroad, and I buy digital games when they're on sale. So it's common to buy a lot of games on the same week
+        just to leave those games sitting on the shelf until I decide to play them.</p>
+      <!-- Scatterplot -->
+      <div class="container p-5">
+        <div class='tableauPlaceholder' id='viz1618237783742' style='position: relative'>
+          <noscript>
+            <a href='#'>
+              <img alt='How long does a game remain in my backlog? ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP-PurchasetoPlaying&#47;PurchasetoPlaying&#47;1_rss.png' style='border: none' />
+            </a>
+          </noscript>
+          <object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+            <param name='name' value='TP-PurchasetoPlaying&#47;PurchasetoPlaying' />
+            <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP-PurchasetoPlaying&#47;PurchasetoPlaying&#47;1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en' />
+            <param name='filter' value='publish=yes' />
+          </object>
+        </div>
+      </div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1618237783742');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width='100%';vizElement.style.height=50+'rem';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+      <h6 class="">Obervations:</h6>
+      <ul>
+        <li>I don't actually take that long to try out a game once I buy it, seeing as most games follow a straight line</p>
+        <li>I generally play a game within three months of buying it, with exceptions.</p>
+      </ul>
+    </div>
+
+    <div class="p-5">
+      <h3 class="text-center bg-dark text-white p-4">What console's library did I play the most?</h3>
+      <p>The color scheme for this visualization is based on the colors usually associated with that platform's hardware, logo or box cover art.
+        For example, the lilac on the American SNES, or the red on the Nintendo Switch logo.</p>
+      <!-- Libraries -->
+      <div class='tableauPlaceholder' id='viz1618238193582' style='position: relative'>
+        <noscript>
+          <a href='#'><img alt='Dashboard 6 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP-ConsoleLibraries&#47;Dashboard6&#47;1_rss.png' style='border: none' /></a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='TP-ConsoleLibraries&#47;Dashboard6' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP-ConsoleLibraries&#47;Dashboard6&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='language' value='en' />
+          <param name='filter' value='publish=yes' />
+        </object>
+      </div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1618238193582');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if ( divElement.offsetWidth > 800 ) {
+          vizElement.style.width='100%';vizElement.style.height=50+'rem';
+        } else if ( divElement.offsetWidth > 500 ) {
+          vizElement.style.width='100%';vizElement.style.height=50+'rem';
+        } else {
+          vizElement.style.width='100%';vizElement.style.height='727px';
+        }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+      <h6 class="">Obervations:</h6>
+      <ul>
+        <li>I've played way more games for 3DS than for any other console</p>
+      </ul>
+    </div>
+
+    <div class="p-5">
+      <h3 class="text-center bg-dark text-white p-4">What hardware do I play on the most?</h3>
+      <p>I don't own every single console those games were originally released on, and even if I do, I wouldn't want to set them up just to play one game.
+        Most games I play are actually emulated or played through backwards compatibility on a newer console. So what hardware did I use the most to play?</p>
+      <!-- Hardware -->
+      <div class='tableauPlaceholder' id='viz1618238524294' style='position: relative'>
+        <noscript>
+          <a href='#'><img alt='Dashboard 7 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP-Hardware&#47;Dashboard7&#47;1_rss.png' style='border: none' /></a>
+        </noscript>
+        <object class='tableauViz'  style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='TP-Hardware&#47;Dashboard7' />
+          <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+          <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP-Hardware&#47;Dashboard7&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='language' value='en' />
+          <param name='filter' value='publish=yes' />
+        </object>
+      </div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1618238524294');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if ( divElement.offsetWidth > 800 ) {
+          vizElement.style.width='100%';
+          vizElement.style.height=50+'rem';
+        } else if ( divElement.offsetWidth > 500 ) {
+          vizElement.style.width='100%';
+          vizElement.style.height=50+'rem';
+        } else {
+          vizElement.style.width='100%';
+          vizElement.style.height='727px';
+        }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+      <h6 class="">Obervations:</h6>
+      <ul>
+        <li>I used my Wii U a lot, but used it to play more games from other consoles than actual Wii U games.</li>
+        <li>I use my PC a lot to play, even if it's not for a wide variety of games</li>
+      </ul>
+    </div>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
   </body>
 </html>

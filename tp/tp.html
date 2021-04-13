@@ -48,14 +48,37 @@
           <img alt='Switch' src='Fotos/Switch.png' style="height:7rem;"/>
           <h6>Nintendo Switch (NS)</h6>
         </div>
-
-
       </div>
     </div>
 
     <div class="p-5">
       <h3 class="text-center bg-dark text-white p-4">Overview</h3>
-      <div class="flourish-embed flourish-cards" data-src="visualisation/5845185"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+      <div class="row m-5 text-white">
+        <div class="col text-center bg-dark m-3 pt-4 p-3">
+          <img alt='Heart' src='Fotos/heart.png' style="height:7rem;"/>
+          <h4 class="mt-4" style="font-family:arial; font-weight: bold">Hours I've spent playing</h4>
+          <h5>3469 hrs</h5>
+          <p>Across 117 games over 8 and a half years</p>
+        </div>
+        <div class="col text-center bg-dark m-3 pt-4 p-3">
+          <img alt='Key' src='Fotos/key.png' style="height:7rem;"/>
+          <h4 class="mt-4" style="font-family:arial; font-weight: bold">Movies I could've watched</h4>
+          <h5>1735 movies</h5>
+          <p>Assuming an average length of 2 hours per movie</p>
+        </div>
+        <div class="col text-center bg-dark m-3 pt-4 p-3">
+          <img alt='Map' src='Fotos/map.png' style="height:7rem;"/>
+          <h4 class="mt-4" style="font-family:arial; font-weight: bold">Distance I could've walked</h4>
+          <h5>17413 km</h5>
+          <p>According to Google Maps, in that time I could've walked from Pretoria, South Africa to Bangkok, Thailand</p>
+        </div>
+        <div class="col text-center bg-dark m-3 pt-4 p-3">
+          <img alt='Rupee' src='Fotos/rupee.png' style="height:7rem;"/>
+          <h4 class="mt-4" style="font-family:arial; font-weight: bold">Money I'd have...</h4>
+          <h5>$ 173.45</h5>
+          <p>If I had a nickel for each hour I spent playing...</p>
+        </div>
+      </div>
     </div>
 
     <div class="p-5">
@@ -224,9 +247,9 @@
         var divElement = document.getElementById('viz1618238193582');
         var vizElement = divElement.getElementsByTagName('object')[0];
         if ( divElement.offsetWidth > 800 ) {
-          vizElement.style.width='100%';vizElement.style.height='60vh';
+          vizElement.style.width='100%';vizElement.style.height='90vh';
         } else if ( divElement.offsetWidth > 500 ) {
-          vizElement.style.width='100%';vizElement.style.height='60vh';
+          vizElement.style.width='100%';vizElement.style.height='90vh';
         } else {
           vizElement.style.width='100%';vizElement.style.height='727px';
         }
@@ -269,14 +292,11 @@
         var divElement = document.getElementById('viz1618238524294');
         var vizElement = divElement.getElementsByTagName('object')[0];
         if ( divElement.offsetWidth > 800 ) {
-          vizElement.style.width='100%';
-          vizElement.style.height='90vh';
+          vizElement.style.width='100%';vizElement.style.height='90vh';
         } else if ( divElement.offsetWidth > 500 ) {
-          vizElement.style.width='100%';
-          vizElement.style.height='90vh';
+          vizElement.style.width='100%';vizElement.style.height='90vh';
         } else {
-          vizElement.style.width='100%';
-          vizElement.style.height='727px';
+          vizElement.style.width='100%';vizElement.style.height='727px';
         }
         var scriptElement = document.createElement('script');
         scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
